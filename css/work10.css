@@ -1,0 +1,92 @@
+body {
+  font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體",
+    sans-serif;
+  background-color: black;
+}
+.container {
+  width: 940px;
+  display: flex;
+  margin: 0px auto;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.left-side {
+  width: 400px;
+  background-color: #fff;
+}
+
+.left-side p {
+  font-size: 30px;
+  height: 65px;
+  line-height: 65px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #37523d;
+  text-align: center;
+}
+
+.left-side li {
+  border: 1px solid #e9e4e7;
+  height: 65px;
+  font-size: 24px;
+  color: #37523d;
+  font-weight: 600;
+  text-align: center;
+  height: 65px;
+  line-height: 65px;
+}
+
+.left-side li a {
+  display: block;
+  text-decoration: none;
+  color: #37523d;
+}
+
+.left-side li a:hover {
+  background-color: #e7eeea;
+}
+
+.right-side {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-side .product {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e7eeea;
+}
+
+.right-side .detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #e7eeea;
+  height: 64px;
+}
+
+.right-side p {
+  font-size: 19px;
+  font-weight: 700;
+  color: #37523d;
+}
+
+.right-side p.price {
+  line-height: 64px;
+  border-left: 1px solid #e7eeea;
+  padding-left: 30px;
+}
+
+.product a {
+  display: block;
+  height: 87px;
+  background-color: #e7eeea;
+  font-size: 24px;
+  font-weight: 700;
+  color: #37523d;
+  text-decoration: none;
+  line-height: 87px;
+  text-align: center;
+}

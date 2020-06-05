@@ -1,0 +1,66 @@
+body {
+  font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體",
+    sans-serif;
+  background-color: gray;
+}
+
+.container {
+  width: 310px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #829886;
+}
+
+.title {
+  height: 75px;
+  background-color: #e7eeea;
+}
+
+.title p {
+  font-size: 28px;
+  font-weight: 600;
+  color: #829886;
+  text-align: center;
+  line-height: 75px;
+}
+
+.container .price {
+  border: 1px solid #e7eeea;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container .sub {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container .total {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px 10px 10px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.container .item {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.container .content {
+  padding-left: 10px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #829886;
+}
+
+.container .content p {
+  padding-top: 5px;
+}

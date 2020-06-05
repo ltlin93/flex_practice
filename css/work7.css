@@ -1,0 +1,42 @@
+body {
+  font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體",
+    sans-serif;
+  background-color: gray;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 790px;
+  background-color: #e7eeea;
+}
+.header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #37523d;
+  padding-top: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 80px;
+  background-color: #fff;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer ul li a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}

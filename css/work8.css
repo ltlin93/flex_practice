@@ -1,0 +1,25 @@
+body {
+  font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體",
+    sans-serif;
+  background-color: gray;
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.left {
+  width: 500px;
+  background-color: #b3d4d1;
+  display: flex;
+  align-items: center;
+}
+
+.left p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 46px;
+  color: #fff;
+  padding-left: 40px;
+  padding-right: 30px;
+}
